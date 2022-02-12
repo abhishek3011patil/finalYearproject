@@ -30,9 +30,7 @@ const Header = () => {
                     <Link className="Link" to="/News">
                     <li><a href="">News</a></li>
 
-                    </Link>
-                    <Link className="Link" to="/Videos">
-                    <li><a href="">Videos</a></li>
+                   
 
                     </Link>
                     <Link className="Link" to="/Contact">
