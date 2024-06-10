@@ -1,10 +1,10 @@
 
 import './App.css';
-import Header from './components/Header'
+import Header from './components/Header/Header'
 
-import Home from './components/Home';
-import News from './components/News';
-import Contact from './components/Contact';
+import Home from './components/Home/Home';
+import News from './components/News/News';
+import Contact from './components/Contact/Contact';
 import Video from './components/Videos';
 import Tracker from './components/Tracker';
 import {BrowserRouter as Router , Switch , Route} from 'react-router-dom'

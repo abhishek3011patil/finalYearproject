@@ -1,17 +1,17 @@
 import React from 'react'
 
-import Button from './Button';
+import Button from '../components/Button.js';
 import './Home.css'
 import Header from './Header'
-import Card from './Card.js';
+import Card from '../components/Card.js';
 
 import Home_pic from './home_pic.svg';
-import logo2 from '../assests/hom_pic.svg';
+import logo2 from '../../assests/hom_pic.svg';
 import tracker_home from '../assests/tracker_home.jpg';
-import news_home from '../assests/news_home.jpg';
-import contact_home from '../assests/contact_us_home.jpg';
-import github from '../assests/github.png'
-import Footer from './Footer';
+import news_home from '../../assests/news_home.jpg';
+import contact_home from '../../assests/contact_us_home.jpg';
+import github from '../../assests/github.png'
+import Footer from '../components/Footer/Footer';
 import logo from '../assests/logo.svg';
 
 
