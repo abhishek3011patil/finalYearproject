@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './tracker.css';
-import Coin from './Coin';
-import Header from './Header';
-import Footer from './Footer';
+import Coin from '../Coin/Coin';
+import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
 
 function App() {
   const [coins, setCoins] = useState([]);

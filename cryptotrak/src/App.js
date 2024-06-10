@@ -1,12 +1,11 @@
 
 import './App.css';
 import Header from './components/Header/Header'
-
 import Home from './components/Home/Home';
 import News from './components/News/News';
 import Contact from './components/Contact/Contact';
-import Video from './components/Videos';
-import Tracker from './components/Tracker';
+import Videos from './components/Videos/Videos';
+import Tracker from './components/Tracker/Tracker';
 import {BrowserRouter as Router , Switch , Route} from 'react-router-dom'
 
 

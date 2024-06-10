@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 
-import Header from './Header'
-import Card from './Card'
+import Header from '../Header/Header'
+import Card from '../Card/Card'
 import './News.css'
-import tracker_home from '../assests/tracker_home.jpg';
-import Footer from './Footer';
+import tracker_home from '../../assests/tracker_home.jpg';
+import Footer from '../Footer/Footer';
 import axios from 'axios';
 
 const News = () => {

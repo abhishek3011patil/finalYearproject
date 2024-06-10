@@ -2,7 +2,7 @@ import React from 'react'
 import  { Link } from 'react-router-dom';
 import logo from '../../assests/logo.svg'
 import './Header.css'
-import Button from '../components/Tracker/Button'
+import Button from '../Button/Button'
 
 
 const Header = () => {
