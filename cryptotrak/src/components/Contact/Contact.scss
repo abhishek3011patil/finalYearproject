@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import "./colors.scss";
+@import "../color/colors.scss";
 
 form {
   max-width: 420px;
@@ -7,7 +7,7 @@ form {
 }
 
 .feedback-input {
-  color: white;
+  color: black;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 18px;
@@ -31,6 +31,7 @@ textarea {
   height: 150px;
   line-height: 150%;
   resize: vertical;
+  color: black;
 }
 
 [type="submit"] {
@@ -40,7 +41,7 @@ textarea {
   border-radius: 5px;
   border: 0;
   cursor: pointer;
-  color: white;
+  color: black;
   font-size: 24px;
   padding-top: 10px;
   padding-bottom: 10px;

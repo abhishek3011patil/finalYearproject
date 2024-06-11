@@ -1,38 +1,21 @@
 .coin-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .coin-row {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
   height: 80px;
   border-bottom: 1px solid #d7d7d7;
   width: 900px;
 }
 
 .coin {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   padding-right: 24px;
   min-width: 300px;
 }
@@ -53,13 +36,9 @@
 }
 
 .coin-data {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   text-align: right;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   width: 100%;
 }
 
@@ -85,5 +64,4 @@
 
 .green {
   color: #11d811;
-}
-/*# sourceMappingURL=Coin.css.map */
+}/*# sourceMappingURL=Coin.css.map */
