@@ -21,11 +21,11 @@ const Footer = () => {
                     <li><a href="">Home</a></li>
 
                     </Link>
-                    <Link className="Link" to="../components/Tracker/Tracker">
+                    <Link className="Link" to="/Tracker">
                     <li><a href="">Tracker</a></li>
 
                     </Link>
-                    <Link className="Link" to="../components/News/News">
+                    <Link className="Link" to="/News">
                     <li><a href="">News</a></li>
 
                     </Link>
@@ -33,7 +33,7 @@ const Footer = () => {
                     <li><a href="">Videos</a></li>
 
                     </Link>
-                    <Link className="Link" to="../components/Contacts/Contacts">
+                    <Link className="Link" to="/Contacts">
                     <li><a href="">Contact</a></li>
 
                     </Link>
@@ -43,7 +43,7 @@ const Footer = () => {
                 <ul>
             <li><h3>Tools</h3></li>
                 
-            <Link className="Link" to="../components/News/News">
+            <Link className="Link" to="/News">
                     <li><a href="">Tracker</a></li>
 
                     </Link>
@@ -51,7 +51,7 @@ const Footer = () => {
                     <li><a href="">Converter</a></li>
 
                     </Link>
-                    <Link className="Link" to="../components/Contacts/Contacts">
+                    <Link className="Link" to="/Contacts">
                     <li><a href="">Contact</a></li>
 
                     </Link>
@@ -60,7 +60,7 @@ const Footer = () => {
 
                 <ul>
             <li><h3>Participate :</h3></li>
-            <Link className="Link" to="../components/News/News">
+            <Link className="Link" to="/News">
                     <li><a href="">Development</a></li>
 
                     </Link>
@@ -75,7 +75,7 @@ const Footer = () => {
                 <ul>
             <li><h3>Other :</h3></li>
                 
-            <Link className="Link" to="../components/News/News">
+            <Link className="Link" to="/News">
                     <li><a href="">Legal</a></li>
 
                     </Link>
@@ -83,7 +83,7 @@ const Footer = () => {
                     <li><a href="">Privacy policy</a></li>
 
                     </Link>
-                    <Link className="Link" to="../components/Contact/Contact">
+                    <Link className="Link" to="/Contacts">
                     <li><a href="">About us</a></li>
 
                     </Link>
