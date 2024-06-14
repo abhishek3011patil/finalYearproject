@@ -4,6 +4,7 @@ import Button from '../Button/Button.js';
 import './Home.css'
 import Header from '../Header/Header'
 import Card from '../Card/Card.js';
+import CoinAPI from '../CoinAPI/CoinAPI.js';
 
 import Home_pic from './home_pic.svg';
 import logo2 from '../../assests/logo2.svg';
@@ -97,6 +98,9 @@ const Home = () => {
                    </div>
 
                </section>
+
+               <CoinAPI></CoinAPI>
+
 
 
                <div className="cards_container">

@@ -1,0 +1,33 @@
+.coinApp {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.CoinContent {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* For mobile devices */
+@media only screen and (max-width: 600px) {
+  .coinApp {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}
+/* for tablet devices */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .coinApp {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+}
+/* For laptop devices */
+/* For desktop devices *//*# sourceMappingURL=CoinAPI.css.map */

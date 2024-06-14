@@ -5,9 +5,12 @@ import Coin from '../Coin/Coin';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 
-function App() {
+function Tracker() {
   const [coins, setCoins] = useState([]);
   const [search, setSearch] = useState('');
+  
+
+  let a = 1;
 
   useEffect(() => {
     axios
@@ -30,11 +33,14 @@ function App() {
   );
 
   return (
-      <div>  <Header></Header>
+      <div >  <Header></Header>
           
            <div className='coin-app'>
+            
      
       {filteredCoins.map(coin => {
+
+        
         return (
           <Coin
             key={coin.id}
@@ -54,4 +60,4 @@ function App() {
   );
 }
 
-export default App;
+export default Tracker;

@@ -5,6 +5,7 @@ import Card from '../Card/Card'
 import './News.css'
 import tracker_home from '../../assests/tracker_home.jpg';
 import Footer from '../Footer/Footer';
+import CoinAPI from '../CoinAPI/CoinAPI'
 import axios from 'axios';
 
 const News = () => {
@@ -108,6 +109,8 @@ if (!items.articles) {
                  </div> 
 
               </div>
+
+              <CoinAPI></CoinAPI>
 
               <Footer></Footer>
 
