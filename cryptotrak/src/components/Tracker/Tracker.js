@@ -35,23 +35,18 @@ function Tracker() {
     <div>
       <Header></Header>
 
-      <div className="coin-container coin-header">
-        <div className="coin-row">
-          <div className="coin">
-            <h1>Name</h1>
-            <p className="coin-symbol">Symbol</p>
-          </div>
+      <div className="coin-container ">
+        <div className="coin-row coin-header">
+          <div className="imagediv"> </div>
+          <p className="coin-name">Name</p>
+          <div className="coin-symbol">Symbol</div>
 
-          <div className="coin-data">
-            <p className="coin-price">Price</p>
-            <p className="coin-volume">Volum</p>
+          <p className="coin-price">Price</p>
+          <p className="coin-volume">Coin volume</p>
 
-            <p className="coin-percent">
-              Price <br /> Change
-            </p>
+          <p className="coin-percent ">Price Change</p>
 
-            <p className="coin-marketcap">market Cap</p>
-          </div>
+          <p className="coin-marketcap">Market Cap</p>
         </div>
       </div>
 

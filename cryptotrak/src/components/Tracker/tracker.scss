@@ -27,6 +27,8 @@
   align-items: center;
 
   color: black;
+
+  margin-bottom: 20px;
 }
 
 .coin-search {
@@ -67,9 +69,13 @@
 }
 
 .coin-header {
-  margin-top: 20px;
-  background-color: $tools-bg;
   color: white;
+  background-color: $tools-bg;
+  text-align: center;
+  font-weight: 700;
+  padding-right: 5px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 /* For mobile devices */
