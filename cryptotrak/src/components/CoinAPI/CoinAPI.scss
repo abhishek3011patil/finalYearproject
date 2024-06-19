@@ -3,6 +3,7 @@
   display: flex;
   gap: 20px;
   justify-content: center;
+  flex: 0 0 15%;
 }
 
 .CoinContent {
@@ -19,7 +20,7 @@
     display: grid;
 
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    gap: 15px;
   }
 }
 

@@ -46,11 +46,11 @@ const Home = () => {
 
     return (
         <div className="Home" >
-            
+            <Header></Header>
 
             <div className="home">
 
-            <Header></Header>
+            
             <div className="home_img">
             <h2 > Track cryptocurrencies ,portfolio and 
                 much more!</h2>

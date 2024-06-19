@@ -41,21 +41,23 @@ useEffect(() => {
   const fetchItems = async () => {
 
     
-    setIsLoading(true)
+   
     const result = await axios(
       `https://newsapi.org/v2/everything?q=cryptocurrency&apiKey=${key}`
     )
 
-    
+   
 
     setItems(result.data)
-    setIsLoading(false)
+    console.log("in news")
+    console.log(items);
+    
    
   }
 
   fetchItems()
 
-}, )
+}, [])
 
  
 if (!items.articles) {
@@ -113,6 +115,9 @@ if (!items.articles) {
               <CoinAPI></CoinAPI>
 
               <Footer></Footer>
+
+
+              
 
        
                

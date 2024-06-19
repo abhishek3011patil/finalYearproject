@@ -1,10 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import "../color/colors.scss";
+// .coinTableHeader {
+//   margin-top: 20px;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+// .coinTableRow {
+//   display: flex;
+
+//   height: 50px;
+//   justify-content: space-between;
+//   align-items: center;
+
+//   margin-bottom: 20px;
+
+//   color: white;
+//   font-weight: 700;
+//   background-color: $tools-bg;
+// }
 
 .coin-app {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 64px;
+
   color: black;
 }
 
@@ -14,6 +35,10 @@
   flex-direction: column;
   justify-content: center;
   align-content: center;
+}
+
+.coinName {
+  width: 130px;
 }
 
 .coin-text {
@@ -39,4 +64,26 @@
 
 .coin-input::placeholder {
   color: #e2e2e2;
+}
+
+.coin-header {
+  margin-top: 20px;
+  background-color: $tools-bg;
+  color: white;
+}
+
+/* For mobile devices */
+@media only screen and (max-width: 600px) {
+}
+
+/* for tablet devices */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+}
+
+/* For laptop devices */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+}
+
+/* For desktop devices */
+@media only screen and (min-width: 1025px) {
 }
