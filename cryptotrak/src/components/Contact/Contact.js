@@ -54,40 +54,44 @@ function Contact() {
     <div>
       <Header></Header>
 
-      <form onSubmit={handleSubmit}>
-        <h1>Contact us</h1>
-        <input
-          name="name"
-          value={formData.name}
-          onChange={handleChange}
-          required
-          type="text"
-          className="feedback-input"
-          placeholder="Name"
-        />
+      <div className="formContainer">
+        <form onSubmit={handleSubmit}>
+          <h1>Contact us</h1>
+          <input
+            name="name"
+            value={formData.name}
+            onChange={handleChange}
+            required
+            type="text"
+            className="feedback-input"
+            placeholder="Name"
+          />
 
-        <input
-          name="email"
-          value={formData.email}
-          onChange={handleChange}
-          required
-          type="text"
-          className="feedback-input"
-          placeholder="Email"
-        />
+          <input
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+            required
+            type="text"
+            className="feedback-input"
+            placeholder="Email"
+          />
 
-        <textarea
-          name="comment"
-          value={formData.comment}
-          onChange={handleChange}
-          required
-          className="feedback-input"
-          placeholder="Comment"
-        ></textarea>
+          <textarea
+            name="comment"
+            value={formData.comment}
+            onChange={handleChange}
+            required
+            className="feedback-input"
+            placeholder="Comment"
+          ></textarea>
 
-        <button type="submit">Submit</button>
-        {message && <p>{message}</p>}
-      </form>
+          <button className="formButton" type="submit">
+            Submit
+          </button>
+          {message && <p>{message}</p>}
+        </form>
+      </div>
 
       <Footer></Footer>
     </div>

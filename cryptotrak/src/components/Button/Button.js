@@ -4,7 +4,7 @@ import './Button.css'
 const Button = (props) => {
     return (
         <div>
-            <button style={props.style} className="btn">{props.name}</button>
+            <button className={`defaultButton ${props.classnames}`} style={props.style} className="btn">{props.name}</button>
         </div>
     )
 }

@@ -121,7 +121,7 @@
     }
   }
 
-  Button {
+  .Navbar Button {
     position: absolute;
     top: 0;
     left: 0;
@@ -132,4 +132,11 @@
 
 //mobile
 @media only screen and (max-width: 425px) {
+  .Navbar button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-500px);
+    transition: transform 0.5s ease-in-out;
+  }
 }

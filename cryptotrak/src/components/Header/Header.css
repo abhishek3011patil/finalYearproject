@@ -82,7 +82,16 @@
   nav ul.main-menu.show {
     transform: translateX(-20px);
   }
-  Button {
+  .Navbar Button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-500px);
+    transition: transform 0.5s ease-in-out;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .Navbar button {
     position: absolute;
     top: 0;
     left: 0;

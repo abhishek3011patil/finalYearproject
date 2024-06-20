@@ -1,8 +1,20 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.formContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   max-width: 420px;
-  margin: 50px auto;
+  margin: 50px 50px;
+  gap: 10px;
 }
 
 .feedback-input {
@@ -14,12 +26,9 @@ form {
   line-height: 22px;
   background-color: transparent;
   border: 2px solid #f7931a;
-  transition: all 0.3s;
   padding: 13px;
   margin-bottom: 15px;
   width: 100%;
-  box-sizing: border-box;
-  outline: 0;
 }
 
 .feedback-input:focus {
@@ -29,26 +38,24 @@ form {
 textarea {
   height: 150px;
   line-height: 150%;
-  resize: vertical;
   color: black;
 }
 
-[type=submit] {
-  font-family: "Montserrat", Arial, Helvetica, sans-serif;
-  width: 100%;
-  background: #f7931a;
-  border-radius: 5px;
-  border: 0;
-  cursor: pointer;
-  color: black;
-  font-size: 24px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  transition: all 0.3s;
-  margin-top: -4px;
-  font-weight: 700;
+.formButton {
+  display: block;
+  background-color: #f7931a; /* Change this to your desired button color */
+  color: white; /* Text color */
+  padding: 10px 20px; /* Padding around the text */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Font size */
+  font-weight: bold; /* Bold text */
+  text-align: center; /* Center the text */
+  margin-top: 10px; /* Space above the button */
+  display: inline-block; /* Ensure it is inline-block */
 }
 
-[type=submit]:hover {
-  background: #f26b16;
+.formButton:hover {
+  background-color: #f26b16; /* Darker shade on hover */
 }/*# sourceMappingURL=Contact.css.map */
