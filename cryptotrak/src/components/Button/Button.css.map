@@ -1,10 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,OAAO,CAAC,mGAAI;ACyBZ,OAAO,CAAC,0LAAI;ADrBZ,AAAA,IAAI,CAAC;EACH,UAAU,ECuBM,OAAO;EDtBvB,aAAa,EAAE,MAAM;EAErB,KAAK,EAAE,KAAK;EACZ,KAAK,EAAE,OAAO;EAEd,OAAO,EAAE,SAAS;EAClB,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,kBAAkB;EAC/B,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;CAChB;;AAED,AAAA,IAAI,AAAA,MAAM,CAAC;EACT,OAAO,EAAE,GAAG;CACb",
-    "sources": [
-        "Button.scss",
-        "colors.scss"
-    ],
-    "names": [],
-    "file": "Button.css"
-}
+{"version":3,"sources":["Button.scss","../color/colors.scss","Button.css"],"names":[],"mappings":"AAAQ,2GAAA;ACyBA,kMAAA;ADrBR;EACE,mBCuBgB;EDtBhB,qBAAA;EAEA,YAAA;EACA,cAAA;EAEA,kBAAA;EACA,YAAA;EACA,kBAAA;EACA,+BAAA;EACA,gBAAA;EACA,eAAA;AEHF;;AFMA;EACE,YAAA;AEHF","file":"Button.css"}

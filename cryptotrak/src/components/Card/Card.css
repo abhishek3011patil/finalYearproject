@@ -3,18 +3,15 @@
   border-radius: 5px;
   margin-bottom: 20px;
 }
-
 .card-body img {
   width: 100%;
   border-radius: 5px;
   margin-bottom: 10px;
 }
-
 .card-body h2 {
   margin-bottom: 10px;
   color: #222531;
 }
-
 .card-body p {
   margin-bottom: 20px;
   font-family: "Titillium Web", sans-serif;
@@ -22,13 +19,10 @@
   color: #58667e;
   font-size: 1.1rem;
 }
-
 .card-body a {
   font-weight: bold;
-  color: #005da6;
+  color: rgb(0, 93, 166);
 }
-
 .card-body a:hover {
   border-bottom: solid;
-}
-/*# sourceMappingURL=Card.css.map */
+}/*# sourceMappingURL=Card.css.map */

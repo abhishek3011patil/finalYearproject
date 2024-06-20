@@ -1,4 +1,4 @@
-@import "./colors.scss";
+@import "../color/colors.scss";
 
 h1 {
   height: 5vh;
@@ -62,11 +62,34 @@ h1 {
   grid-area: cardhori2;
 }
 
-//lapi
-@media only screen and (max-width: 1024px) {
+/* For mobile devices */
+@media only screen and (max-width: 600px) {
+  .container {
+    grid-template-areas:
+      "Card"
+      "cardhori1"
+      "cardhori2";
+
+    .card-hori {
+      flex-direction: column-reverse;
+      img {
+        width: 100%;
+        height: max-content;
+      }
+    }
+  }
+
+  // .Card {
+  //   .card-body {
+  //     img {
+  //       width: 350px;
+  //     }
+  //   }
+  // }
 }
-//tablet
-@media only screen and (max-width: 768px) {
+
+/* for tablet devices */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
   .container {
     grid-template-areas:
       "Card Card"
@@ -77,11 +100,11 @@ h1 {
     flex-direction: column-reverse;
   }
 }
-@media only screen and (max-width: 425px) {
-  .container {
-    grid-template-areas:
-      "Card "
-      "cardhori1 "
-      "cardhori2";
-  }
+
+/* For laptop devices */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+}
+
+/* For desktop devices */
+@media only screen and (min-width: 1025px) {
 }
