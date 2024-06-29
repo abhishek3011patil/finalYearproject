@@ -9,8 +9,6 @@ function Tracker() {
   const [coins, setCoins] = useState([]);
   const [search, setSearch] = useState("");
 
-  let a = 1;
-
   useEffect(() => {
     axios
       .get(
@@ -24,7 +22,11 @@ function Tracker() {
   }, []);
 
   const handleChange = (e) => {
-    setSearch(e.target.value);
+    const searchInput = document.getElementById("cryptoSearchInputQuery");
+    e.preventDefault();
+    setSearch(searchInput.value);
+    console.log(search);
+    //setSearch(e.target.value);
   };
 
   const filteredCoins = coins.filter((coin) =>
@@ -34,6 +36,11 @@ function Tracker() {
   return (
     <div>
       <Header></Header>
+
+      <form role="search" onSubmit={handleChange}>
+        <input type="search" id="cryptoSearchInputQuery" />
+        <button type="submit"> submit</button>
+      </form>
 
       <div className="coin-container ">
         <div className="coin-row coin-header">
