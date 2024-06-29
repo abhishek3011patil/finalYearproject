@@ -37,12 +37,20 @@ function Tracker() {
     <div>
       <Header></Header>
 
-      <form role="search" onSubmit={handleChange}>
-        <input type="search" id="cryptoSearchInputQuery" />
-        <button type="submit"> submit</button>
-      </form>
-
       <div className="coin-container ">
+        <form role="search" className="tracker-form" onSubmit={handleChange}>
+          <input
+            type="search"
+            className="coin-input"
+            id="cryptoSearchInputQuery"
+            placeholder="Search a coin here"
+          />
+          <button type="submit" className="formButton">
+            {" "}
+            submit
+          </button>
+        </form>
+
         <div className="coin-row coin-header">
           <div className="imagediv"> </div>
           <p className="coin-name">Name</p>
